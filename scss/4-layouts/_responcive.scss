@@ -1,0 +1,291 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (max-width: 1220px) {
+  .frouts-menu-section .container .frout-inner .frouts-item {
+    padding-right: 40px !important;
+    margin-top: 20px !important;
+  }
+
+  .frouts-menu-section .container .frout-inner .frouts-item .content h3,
+  .frouts-menu-section .container .frout-inner .frouts-item .content .h3 {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+
+  // .frouts-menu-section {
+  //   height: 1260px !important;
+  // }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (max-width: 991px) {
+
+  #testimonial {
+    margin: 80px 50px;
+
+    .img-thumb {
+      .detox {
+        h2 {
+          bottom: 3%;
+        }
+      }
+
+      .fresh {
+        h2 {
+          right: 15%;
+        }
+      }
+
+    }
+  }
+
+  .subscribe-section .container .subscribe {
+    margin-top: 112px;
+  }
+
+  .frouts-menu-section {
+    height: 1326px !important;
+  }
+
+  .frouts-menu-section .container .frout-inner .frouts-item {
+    width: 100% !important;
+  }
+
+  #testimonial-1 .testimonial-item-1 {
+    width: 100% !important;
+  }
+
+  .shop-section .container figure figcaption {
+    margin-top: 10px !important;
+  }
+
+
+
+
+  .footer-area .footer-top .container {
+    display: block;
+  }
+
+  .footer-item {
+    text-align: center;
+  }
+
+  .footer-area .footer-top .container .feed .image-group {
+    width: 100%;
+  }
+
+  .footer-area .footer-top .container .feed .image-group a:nth-child(3) {
+    margin-right: 20px;
+  }
+
+  .footer-area .footer-buttom .container {
+    display: inherit;
+    text-align: center;
+  }
+
+  .footer-area .footer-top .container .footer-item h2,
+  .footer-area .footer-top .container .footer-item .h2 {
+    margin-bottom: 10px;
+  }
+
+  .footer-area .footer-top .container .contact {
+    margin: 30px 0;
+  }
+
+
+
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (max-width: 768px) {
+
+  #testimonial {
+    margin: 30px 0 0 0 !important;
+  }
+
+  #testimonial .owl-item::after {
+    top: -75px;
+  }
+
+  #testimonial .owl-item::before {
+    bottom: -70px;
+  }
+
+  #testimonial .img-thumb .detox h2,
+  #testimonial .img-thumb .detox .h2 {
+    bottom: -13%;
+  }
+
+  #testimonial .img-thumb .fresh h2,
+  #testimonial .img-thumb .fresh .h2 {
+    right: 15%;
+    top: 8%;
+  }
+
+  #testimonial .owl-prev {
+    left: 5px;
+  }
+
+  #testimonial .owl-next {
+    right: 5px;
+  }
+
+
+  .subscribe-section {
+    margin: 0 !important;
+  }
+
+  .subscribe-section .container figure {
+    display: none;
+  }
+
+  .subscribe-section .container .subscribe input[type=email] {
+    width: 100%;
+  }
+
+
+  .frouts-menu-section .container .frout-inner {
+    display: inherit !important;
+
+    .frouts-item {
+      width: 100% !important;
+    }
+  }
+
+  .frouts-menu-section {
+    height: 1520px !important;
+    margin: 0 !important;
+  }
+
+  .text-center {
+    margin-top: 50px;
+  }
+
+  .blog-section .container {
+    display: block !important;
+  }
+
+  .blog-section .container .blog-item {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 50px;
+  }
+
+  .about-section .container {
+    display: block;
+  }
+
+  .footer-area .footer-top .container {
+    display: inherit !important;
+
+    .footer-item {
+      text-align: center;
+    }
+  }
+
+  .footer-area .footer-top .container .feed .image-group {
+    width: 100% !important;
+  }
+
+  .footer-area .footer-top .container .feed .image-group a:nth-child(3) {
+    margin-right: 20px !important;
+  }
+
+  .footer-area .footer-top .container .feed .image-group a:nth-child(6) {
+    margin-right: 20px !important;
+  }
+
+  footer.footer-area {
+    margin-top: 70px;
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (max-width: 480px) {
+
+  #testimonial .img-thumb .detox h2,
+  #testimonial .img-thumb .detox .h2 {
+    line-height: 14vh;
+  }
+
+  #testimonial .img-thumb .fresh h2,
+  #testimonial .img-thumb .fresh .h2 {
+    line-height: 11vh;
+  }
+
+  .frouts-menu-section .container .frout-inner .frouts-item {
+    display: block !important;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+
+  .frouts-menu-section .container .frout-inner .frouts-item figure {
+    margin-right: 0 !important;
+  }
+
+  .frouts-menu-section .container .frout-inner .frouts-item h2,
+  .frouts-menu-section .container .frout-inner .frouts-item .h2 {
+    font-size: 40px !important;
+    line-height: 30px !important;
+  }
+
+  .frouts-menu-section .container .frout-inner {
+    margin-top: 230px !important;
+  }
+
+  .frouts-menu-section .title {
+    top: 80px !important;
+  }
+
+  .frouts-menu-section {
+    height: 145em !important;
+  }
+
+  .footer-area .footer-buttom .container {
+    display: inherit !important;
+    text-align: center !important;
+  }
+
+}
