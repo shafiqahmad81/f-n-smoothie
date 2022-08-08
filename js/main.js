@@ -25,6 +25,11 @@
       autoplay:true,
       dots:true,
     });
+
+    // $(".hamber-wrap").click(function() {
+    //   $(this).toggleClass("on");
+    //   $(".menu").slideToggle();
+    // });
   });
 
 

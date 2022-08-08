@@ -1,0 +1,196 @@
+.about-title {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate(0%, 35%);
+
+  h1 {
+    font-size: 2.604vw;
+    line-height: 62px;
+  }
+
+  p {
+    font-size: 1.56vw;
+    line-height: 30px;
+  }
+
+  h1,
+  p {
+    color: #FFFFFF;
+  }
+
+
+}
+
+
+.about-section {
+  width: 100%;
+  position: relative;
+
+  &::before {
+    display: none !important;
+  }
+
+  &::after {
+    display: none !important;
+  }
+}
+
+
+#testimonial {
+
+
+  .owl-item::after {
+    position: absolute;
+    content: "";
+    top: -40px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 9;
+    background-image: url(../images/about-page-bg-top.png);
+
+  }
+
+  .owl-item::before {
+    position: absolute;
+    content: "";
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 111px;
+    z-index: 9;
+    background-image: url(../images/about-page-bg-bottom.png);
+
+  }
+
+}
+
+
+.subscribe-section {
+  background-color: #FEA3AC !important;
+
+  .container {
+    position: inherit !important;
+    display: inherit !important;
+
+    figure {
+      display: block;
+      margin-top: 0;
+    }
+
+    .food-item {
+      margin: 0 auto;
+      margin-top: 70px;
+
+      h2 {
+        font-family: 'Waiting for the Sunrise';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 3vw;
+        line-height: 99px;
+        color: #DFEEB6;
+        margin-top: -20px;
+      }
+
+      p {
+        font-weight: 700;
+        font-size: 1vw;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top: -36px;
+      }
+
+    }
+  }
+
+
+  .food-wrap {
+    padding-top: 180px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.blog-section {
+  background-image: none;
+
+  .container {
+
+
+
+    .team-group {
+      display: flex;
+      align-items: center;
+      flex-flow: wrap;
+
+      .team-item {
+        padding: 84px 21px 84px 0;
+        background: #C9E3F4;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        margin-left: 19px;
+        width: 482px;
+        height: auto;
+
+
+        figure {
+          margin-left: -170px;
+        }
+
+        .team-content {
+          margin-left: 20px;
+
+          h2,
+          p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 25px;
+            color: $body-text;
+          }
+
+          .title {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 38px;
+            color: #FFFFFF;
+          }
+
+
+          .social {
+            margin-left: auto;
+
+
+            .fb {
+              background-color: #433840;
+              color: #FFFFFF;
+              border-radius: 50%;
+
+              i {
+                font-size: 11px;
+              }
+            }
+
+            a {
+              color: #433840;
+
+              .zmdi {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 35px;
+                padding: 0 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
