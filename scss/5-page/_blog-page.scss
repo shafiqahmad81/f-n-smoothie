@@ -1,0 +1,24 @@
+.blog {
+  .blog-section .container .blog-item:nth-child(4) {
+    margin-left: 0;
+  }
+
+  .blog-section .container .blog-item {
+    margin-bottom: 47px;
+  }
+
+  .button {
+    width: 265px;
+    padding: 15px 0px;
+    text-align: center;
+    border: 3px solid #DFEEB6;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #DFEEB6;
+    margin-bottom: 50px;
+  }
+}

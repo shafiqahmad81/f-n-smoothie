@@ -200,6 +200,21 @@
     top: -60px !important;
   }
 
+  .about-page .blog-section .container .team-group {
+    display: inherit !important;
+  }
+
+  .about-page .blog-section .container .team-group .team-item {
+    width: 100% !important;
+  }
+
+  .about-page .blog-section .container .team-group .team-item figure {
+    width: auto !important;
+  }
+
+  .about-page .blog-section .container .team-group .team-item figure img {
+    width: auto !important;
+  }
 
 
 }
@@ -254,8 +269,8 @@
   }
 
   .subscribe-section {
-    height: 1150px !important;
-    margin: 160px 0 !important;
+    height: 900px !important;
+    margin: 250px 0 0 !important;
 
     .food-wrap {
       padding-top: 50px !important;
@@ -272,6 +287,11 @@
   .subscribe-section .container {
     display: inherit !important;
   }
+
+  .subscribe-section .container figure img {
+    margin-top: -100px;
+  }
+
 
   .subscribe-section .container .subscribe input[type=email] {
     width: 100% !important;
@@ -319,8 +339,10 @@
     margin-bottom: 50px;
   }
 
-  .about-section .container {
+  .about-section .content-iner {
     display: block;
+    position: relative;
+    z-index: 9;
   }
 
   .footer-area .footer-top .container {
@@ -347,12 +369,50 @@
     margin-top: 70px;
   }
 
+  // ===============about page==============
+
+  .about-page {
+    .subscribe-section .container figure {
+      margin-top: 0 !important;
+    }
+
+    .subscribe-section {
+      height: 1150px !important;
+      margin-top: 100px !important;
+    }
+  }
+
 }
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
+
+@media (max-width: 580px) {
+
+  // =============about page==============
+  .about-page .blog-section .container .team-group .team-item {
+    display: inherit !important;
+    text-align: center !important;
+  }
+
+  .about-page .blog-section .container .team-group .team-item::before {
+    left: 0 !important;
+  }
+
+  .about-page .blog-section .container .team-group .team-item:nth-child(n+3)::before {
+    left: 0 !important;
+  }
+
+  .about-page .blog-section .container .team-group .team-item:nth-child(n+3) .team-content {
+    text-align: center !important;
+  }
+
+  .about-page .blog-section .container .team-group .team-item figure img {
+    max-width: 100%;
+  }
+}
 
 @media (max-width: 480px) {
 
@@ -394,6 +454,15 @@
     height: 145em !important;
   }
 
+  .subscribe-section .container figure {
+    margin-top: -30px !important;
+  }
+
+  .subscribe-section {
+    height: 760px !important;
+    margin: 250px 0 0 !important;
+  }
+
   .footer-area .footer-buttom .container {
     display: inherit !important;
     text-align: center !important;
@@ -414,5 +483,7 @@
   .about-title {
     transform: translate(0%, 15%) !important;
   }
+
+
 
 }

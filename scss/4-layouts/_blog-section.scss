@@ -6,9 +6,12 @@
   background-position-y: bottom;
 
   .container {
-    display: flex;
-    align-items: center;
-    flex-flow: wrap;
+
+    .blog-iner {
+      display: flex;
+      align-items: center;
+      flex-flow: wrap;
+    }
 
     .blog-item:nth-child(1) {
       margin-left: 0;
@@ -53,6 +56,10 @@
         padding: 5px 15px;
         margin-top: 25px;
         margin-bottom: 20px;
+      }
+
+      .blue {
+        background-color: #B1CFE1;
       }
 
       p {
