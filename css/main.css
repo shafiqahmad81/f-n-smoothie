@@ -10608,9 +10608,6 @@ main {
   #testimonial-1 .testimonial-item-1 {
     width: 100% !important;
   }
-  .shop-section .container figure figcaption {
-    margin-top: 10px !important;
-  }
   .footer-area .footer-top .container {
     display: block;
   }
@@ -10644,10 +10641,10 @@ main {
     line-height: 20px !important;
   }
   #testimonial .owl-item::before {
-    bottom: -55px !important;
+    bottom: -65px !important;
   }
   #testimonial .owl-item::after {
-    top: -60px !important;
+    top: -80px !important;
   }
   .about-page .blog-section .container .team-group {
     display: inherit !important;
@@ -10660,6 +10657,29 @@ main {
   }
   .about-page .blog-section .container .team-group .team-item figure img {
     width: auto !important;
+  }
+  .menu-page .bannar-section .ml,
+.menu-page .bannar-section .mr {
+    margin: 0 !important;
+  }
+  .menu-page .bannar-section figure {
+    text-align: center;
+  }
+  .menu-page .bannar-section figure img {
+    max-width: 100%;
+  }
+  .menu-page .bannar-section .bannar-top {
+    display: inherit !important;
+  }
+  .menu-page .bannar-section .banar-bottom {
+    display: inherit !important;
+    margin-top: 100px !important;
+  }
+  .menu-page .pricing-table .pricing-iner {
+    display: inherit !important;
+  }
+  .menu-page .pricing-table .pricing-iner .pricing-item {
+    margin-right: 0 !important;
   }
 }
 /* 
@@ -10875,7 +10895,7 @@ main {
   transform: scale(1.2);
 }
 .shop-section .container figure {
-  margin: 18px;
+  margin: 30px 18px;
   position: relative;
 }
 .shop-section .container figure figcaption {
@@ -11339,6 +11359,103 @@ main {
   line-height: 25px;
   color: #DFEEB6;
   margin-bottom: 50px;
+}
+
+.menu-page button {
+  width: 160px;
+  height: 60px;
+  background: #DFEEB6;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  margin-top: 22px;
+}
+.menu-page .bannar-section .ml {
+  margin-left: 80px;
+}
+.menu-page .bannar-section .mr {
+  margin-right: 80px;
+}
+.menu-page .bannar-section .content {
+  text-align: center;
+}
+.menu-page .bannar-section .content h2, .menu-page .bannar-section .content .h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #433840;
+  margin-bottom: 22px;
+}
+.menu-page .bannar-section .content p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #9A9A9A;
+}
+.menu-page .bannar-section .bannar-top {
+  display: flex;
+  align-items: center;
+}
+.menu-page .bannar-section .banar-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: -100px;
+}
+.menu-page .pricing-table {
+  margin-bottom: 100px;
+}
+.menu-page .pricing-table .pricing-iner {
+  display: flex;
+}
+.menu-page .pricing-table .pricing-iner .pricing-item {
+  background: #DFEEB6;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px 50px 100px;
+  margin-right: 21px;
+  margin-top: 40px;
+  position: relative;
+}
+.menu-page .pricing-table .pricing-iner .pricing-item::before {
+  position: absolute;
+  content: "";
+  bottom: -51px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 120px;
+  background-image: url(../images/about-page-bg-bottom.png);
+}
+.menu-page .pricing-table .pricing-iner .pricing-item:last-child {
+  margin-right: 0;
+}
+.menu-page .pricing-table .pricing-iner .pricing-item h2, .menu-page .pricing-table .pricing-iner .pricing-item .h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+.menu-page .pricing-table .pricing-iner .pricing-item span {
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 132px;
+  color: #FEA3AC;
+}
+.menu-page .pricing-table .pricing-iner .pricing-item p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #9A9A9A;
+}
+.menu-page .pricing-table .pricing-iner .pricing-item button {
+  border: 2px solid #FFFFFF;
+  outline: none;
 }
 
 /*# sourceMappingURL=main.css.map */

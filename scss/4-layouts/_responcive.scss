@@ -139,12 +139,6 @@
     width: 100% !important;
   }
 
-  .shop-section .container figure figcaption {
-    margin-top: 10px !important;
-  }
-
-
-
 
   .footer-area .footer-top .container {
     display: block;
@@ -193,11 +187,11 @@
   }
 
   #testimonial .owl-item::before {
-    bottom: -55px !important;
+    bottom: -65px !important;
   }
 
   #testimonial .owl-item::after {
-    top: -60px !important;
+    top: -80px !important;
   }
 
   .about-page .blog-section .container .team-group {
@@ -216,6 +210,42 @@
     width: auto !important;
   }
 
+  // ================menu-page================
+
+  .menu-page .bannar-section {
+
+    .ml,
+    .mr {
+      margin: 0 !important;
+    }
+
+    figure {
+      text-align: center;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .menu-page .bannar-section {
+    .bannar-top {
+      display: inherit !important;
+    }
+
+    .banar-bottom {
+      display: inherit !important;
+      margin-top: 100px !important;
+    }
+  }
+
+  .menu-page .pricing-table .pricing-iner {
+    display: inherit !important;
+  }
+
+  .menu-page .pricing-table .pricing-iner .pricing-item {
+    margin-right: 0 !important;
+  }
 
 }
 

@@ -1,0 +1,121 @@
+.menu-page {
+
+  button {
+    width: 160px;
+    height: 60px;
+    background: #DFEEB6;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    margin-top: 22px;
+  }
+
+  .bannar-section {
+
+
+    .ml {
+      margin-left: 80px;
+    }
+
+    .mr {
+      margin-right: 80px;
+    }
+
+    .content {
+      text-align: center;
+
+      h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+        color: #433840;
+        margin-bottom: 22px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #9A9A9A;
+
+      }
+
+    }
+
+    .bannar-top {
+      display: flex;
+      align-items: center;
+    }
+
+    .banar-bottom {
+      display: flex;
+      align-items: center;
+      margin-top: -100px;
+    }
+  }
+
+  .pricing-table {
+    margin-bottom: 100px;
+
+    .pricing-iner {
+      display: flex;
+
+      .pricing-item {
+        background: #DFEEB6;
+        border-radius: 5px;
+        text-align: center;
+        padding: 30px 50px 100px;
+        margin-right: 21px;
+        margin-top: 40px;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: "";
+          bottom: -51px;
+          left: 0;
+          right: 0;
+          width: 100%;
+          height: 120px;
+          background-image: url(../images/about-page-bg-bottom.png);
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        h2 {
+          font-weight: 700;
+          font-size: 50px;
+          line-height: 62px;
+          color: #FFFFFF;
+        }
+
+        span {
+          font-weight: 300;
+          font-size: 80px;
+          line-height: 132px;
+          color: #FEA3AC;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          text-align: center;
+          color: #9A9A9A;
+        }
+
+        button {
+          border: 2px solid #FFFFFF;
+          outline: none;
+        }
+      }
+    }
+  }
+}
